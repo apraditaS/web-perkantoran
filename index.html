@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+      video#introVideo {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover; 
+      }
+    </style>
+  </head>
+  <body>
+    <video
+      id="introVideo"
+      autoplay
+      muted
+      playsinline
+    >
+      <source src="intro.mp4" type="video/mp4" />
+    </video>
+
+    <script>
+      const video = document.getElementById("introVideo");
+      video.onended = () => { //event handler, untuk redirect ke halaman selanjutnya.
+        window.location.href = "login_out/login.php"; 
+      };
+    </script>
+  </body>
+</html>

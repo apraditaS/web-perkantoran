@@ -1,0 +1,9 @@
+Array
+(
+    [tanggal_acara] => 2025-06-24
+    [waktu] => 08:20:00
+    [nama_acara] => Pembagian Rapor Semester Genap_
+    [jenis_acara] => Lainnya
+    [deskripsi] => Penyerahan hasil belajar siswa selama semester genap.
+    [id] => 32
+)
